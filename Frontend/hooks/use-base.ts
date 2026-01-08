@@ -1,9 +1,9 @@
 "use client"
 
-import { useState, useCallback, useEffect } from "react";
-import { toast } from "sonner";
-import { BrowserProvider, Contract, parseEther, formatEther } from "ethers";
-import SessionPaymentABI from "../src/contracts/SessionPaymentABI.json";
+import { useState, useCallback, useEffect } from "react"
+import { toast } from "sonner"
+import { BrowserProvider, Contract, parseEther, formatEther } from "ethers"
+import SessionPaymentABI from "../contracts/SessionPaymentABI.json"
 
 // Base Network Configuration
 const BASE_MAINNET_CHAIN_ID = "0x2105" // 8453 in hex
