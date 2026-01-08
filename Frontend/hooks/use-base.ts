@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect } from "react"
 import { toast } from "sonner"
 import { BrowserProvider, Contract, parseEther, formatEther } from "ethers"
-import SessionPaymentABI from '../../../Smart-Contracts/contracts/contracts/SessionPaymentABI.json';
+import SessionPaymentABI from '../../../Smart-Contracts/contracts/SessionPaymentABI.json';
 
 // Base Network Configuration
 const BASE_MAINNET_CHAIN_ID = "0x2105" // 8453 in hex
